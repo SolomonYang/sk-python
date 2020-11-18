@@ -1,0 +1,13 @@
+## IP address of YaBGP controller
+yabpg_ip: 172.20.48.143
+
+## IP address of sFlow-RT collector
+sflow_rt_ip: 172.20.48.143
+
+## IP addresses of Arista Routers
+pe1: 172.30.154.65
+lsr2: 172.30.154.63
+
+binding_sid: 965700
+next_hop: 10.10.51.1
+endpoint: 10.0.0.5
