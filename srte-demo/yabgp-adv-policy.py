@@ -98,6 +98,8 @@ def run_script():
         top_color = get_color()
         print("\33[91m"+"The top flow is destined to the prefix %s and has color %s" %
               (top_color[1], top_color[0])+"\033[0m")
-        push_seglist(int(top_color[0]), '960003 960004 960002 960005')
+        val = input("Enter the alternate segment list for top-talker (provide spaces between labels): ")
+        
+        push_seglist(int(top_color[0]), val)
         time.sleep(5)
 run_script()
